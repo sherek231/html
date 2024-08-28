@@ -1,0 +1,76 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+body{
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+#cabecalho{
+width: 70%;
+height: 80px;
+display: flex;
+border-bottom: 1px solid #00000042;
+
+
+}
+#Logo{
+width: auto;
+height: 100%;
+display: flex;
+flex-direction: row;
+}
+#foto_logo{
+width: 50px;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#foto_logo img{
+width:  50px;
+height: 50px ;
+display: flex;
+align-items: center;
+}
+#nome_logo{
+
+height: 100%;
+width: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#menu{
+width: auto;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+margin-left: auto;
+}
+.opcoes{
+height:100% ;
+display: flex;
+align-items: center;
+margin-inline: 10px;
+}
+.opcoes{
+text-decoration:none
+color:blue
+}
+#section{
+width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#section p{
+border-bottom: 1px solid #00000042;
+}
